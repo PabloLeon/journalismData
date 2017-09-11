@@ -1124,7 +1124,7 @@
     "NT9": {
       "hospitals": ["Yorkshire Clinic (Ramsay)"],
       "organisation": ["Alliance Medical"],
-      "city": [""NaN""],
+      "city": ["NaN"],
       "type": ["Hospital"],
       "sector": ["Independent Sector"]
     },
@@ -1408,7 +1408,7 @@
         "The Huntercombe Group",
         "The Huntercombe Group"
       ],
-      "city": ["Maidenhead", "London", "Stafford", "Norwich", ""NaN""],
+      "city": ["Maidenhead", "London", "Stafford", "Norwich", "NaN"],
       "type": ["Hospital", "Hospital", "Hospital", "UNKNOWN", "Hospital"],
       "sector": [
         "Independent Sector",
@@ -1639,7 +1639,7 @@
         "Claremont Private Hospital"
       ],
       "organisation": ["Aspen Healthcare Limited", "Aspen Healthcare Limited"],
-      "city": ["Newcastle", ""NaN""],
+      "city": ["Newcastle", "NaN"],
       "type": ["UNKNOWN", "Hospital"],
       "sector": ["NHS Sector", "Independent Sector"]
     },
@@ -1888,13 +1888,13 @@
       ],
       "city": [
         "Moreton-In-Marsh",
-        ""NaN"",
-        ""NaN"",
+        "NaN",
+        "NaN",
         "Gloucestershire",
-        ""NaN"",
+        "NaN",
         "Lydney",
-        ""NaN"",
-        ""NaN""
+        "NaN",
+        "NaN"
       ],
       "type": [
         "UNKNOWN",
@@ -2129,7 +2129,7 @@
         "North East London NHS Foundation Trust",
         "North East London NHS Foundation Trust"
       ],
-      "city": ["Ilford", ""NaN""],
+      "city": ["Ilford", "NaN"],
       "type": ["Mental Health Hospital", "Mental Health Hospital"],
       "sector": ["NHS Sector", "NHS Sector"]
     },
@@ -2951,17 +2951,17 @@
       ],
       "city": [
         "Frome",
-        ""NaN"",
-        ""NaN"",
-        ""NaN"",
-        ""NaN"",
+        "NaN",
+        "NaN",
+        "NaN",
+        "NaN",
         "Shepton Mallet",
-        ""NaN"",
-        ""NaN"",
-        ""NaN"",
-        ""NaN"",
-        ""NaN"",
-        ""NaN"",
+        "NaN",
+        "NaN",
+        "NaN",
+        "NaN",
+        "NaN",
+        "NaN",
         "Burnham-On-Sea",
         "Glastonbury",
         "Bridgwater"
@@ -3025,7 +3025,7 @@
         "Nottinghamshire Healthcare NHS Foundation Trust",
         "Nottinghamshire Healthcare NHS Foundation Trust"
       ],
-      "city": [""NaN"", "Nottingham", "Nottingham"],
+      "city": ["NaN", "Nottingham", "Nottingham"],
       "type": ["Mental Health Hospital", "UNKNOWN", "UNKNOWN"],
       "sector": ["NHS Sector", "Independent Sector", "Independent Sector"]
     },
@@ -3231,7 +3231,7 @@
         "King's College Hospital NHS Foundation Trust",
         "King's College Hospital NHS Foundation Trust"
       ],
-      "city": ["London", "London", "Orpington", ""NaN""],
+      "city": ["London", "London", "Orpington", "NaN"],
       "type": ["Hospital", "Hospital", "UNKNOWN", "Hospital"],
       "sector": ["NHS Sector", "NHS Sector", "Independent Sector", "NHS Sector"]
     },
@@ -3452,9 +3452,9 @@
       "city": [
         "Norwich",
         "Norwich",
-        ""NaN"",
+        "NaN",
         "Carlton Colville",
-        ""NaN"",
+        "NaN",
         "Norwich",
         "Ipswich",
         "Ipswich",
@@ -3514,10 +3514,10 @@
       "city": [
         "Marlborough",
         "Swindon",
-        ""NaN"",
+        "NaN",
         "Chippenham",
         "Trowbridge",
-        ""NaN"",
+        "NaN",
         "Melksham"
       ],
       "type": [
@@ -3648,7 +3648,7 @@
     "RNS": {
       "hospitals": ["Northampton General Hospital (Acute)"],
       "organisation": ["Northampton General Hospital NHS Trust"],
-      "city": [""NaN""],
+      "city": ["NaN"],
       "type": ["Hospital"],
       "sector": ["NHS Sector"]
     },

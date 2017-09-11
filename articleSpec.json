@@ -1124,7 +1124,7 @@
     "NT9": {
       "hospitals": ["Yorkshire Clinic (Ramsay)"],
       "organisation": ["Alliance Medical"],
-      "city": [NaN],
+      "city": [""NaN""],
       "type": ["Hospital"],
       "sector": ["Independent Sector"]
     },
@@ -1408,7 +1408,7 @@
         "The Huntercombe Group",
         "The Huntercombe Group"
       ],
-      "city": ["Maidenhead", "London", "Stafford", "Norwich", NaN],
+      "city": ["Maidenhead", "London", "Stafford", "Norwich", ""NaN""],
       "type": ["Hospital", "Hospital", "Hospital", "UNKNOWN", "Hospital"],
       "sector": [
         "Independent Sector",
@@ -1639,7 +1639,7 @@
         "Claremont Private Hospital"
       ],
       "organisation": ["Aspen Healthcare Limited", "Aspen Healthcare Limited"],
-      "city": ["Newcastle", NaN],
+      "city": ["Newcastle", ""NaN""],
       "type": ["UNKNOWN", "Hospital"],
       "sector": ["NHS Sector", "Independent Sector"]
     },
@@ -1888,13 +1888,13 @@
       ],
       "city": [
         "Moreton-In-Marsh",
-        NaN,
-        NaN,
+        ""NaN"",
+        ""NaN"",
         "Gloucestershire",
-        NaN,
+        ""NaN"",
         "Lydney",
-        NaN,
-        NaN
+        ""NaN"",
+        ""NaN""
       ],
       "type": [
         "UNKNOWN",
@@ -2129,7 +2129,7 @@
         "North East London NHS Foundation Trust",
         "North East London NHS Foundation Trust"
       ],
-      "city": ["Ilford", NaN],
+      "city": ["Ilford", ""NaN""],
       "type": ["Mental Health Hospital", "Mental Health Hospital"],
       "sector": ["NHS Sector", "NHS Sector"]
     },
@@ -2951,17 +2951,17 @@
       ],
       "city": [
         "Frome",
-        NaN,
-        NaN,
-        NaN,
-        NaN,
+        ""NaN"",
+        ""NaN"",
+        ""NaN"",
+        ""NaN"",
         "Shepton Mallet",
-        NaN,
-        NaN,
-        NaN,
-        NaN,
-        NaN,
-        NaN,
+        ""NaN"",
+        ""NaN"",
+        ""NaN"",
+        ""NaN"",
+        ""NaN"",
+        ""NaN"",
         "Burnham-On-Sea",
         "Glastonbury",
         "Bridgwater"
@@ -3025,7 +3025,7 @@
         "Nottinghamshire Healthcare NHS Foundation Trust",
         "Nottinghamshire Healthcare NHS Foundation Trust"
       ],
-      "city": [NaN, "Nottingham", "Nottingham"],
+      "city": [""NaN"", "Nottingham", "Nottingham"],
       "type": ["Mental Health Hospital", "UNKNOWN", "UNKNOWN"],
       "sector": ["NHS Sector", "Independent Sector", "Independent Sector"]
     },
@@ -3231,7 +3231,7 @@
         "King's College Hospital NHS Foundation Trust",
         "King's College Hospital NHS Foundation Trust"
       ],
-      "city": ["London", "London", "Orpington", NaN],
+      "city": ["London", "London", "Orpington", ""NaN""],
       "type": ["Hospital", "Hospital", "UNKNOWN", "Hospital"],
       "sector": ["NHS Sector", "NHS Sector", "Independent Sector", "NHS Sector"]
     },
@@ -3452,9 +3452,9 @@
       "city": [
         "Norwich",
         "Norwich",
-        NaN,
+        ""NaN"",
         "Carlton Colville",
-        NaN,
+        ""NaN"",
         "Norwich",
         "Ipswich",
         "Ipswich",
@@ -3514,10 +3514,10 @@
       "city": [
         "Marlborough",
         "Swindon",
-        NaN,
+        ""NaN"",
         "Chippenham",
         "Trowbridge",
-        NaN,
+        ""NaN"",
         "Melksham"
       ],
       "type": [
@@ -3648,7 +3648,7 @@
     "RNS": {
       "hospitals": ["Northampton General Hospital (Acute)"],
       "organisation": ["Northampton General Hospital NHS Trust"],
-      "city": [NaN],
+      "city": [""NaN""],
       "type": ["Hospital"],
       "sector": ["NHS Sector"]
     },
@@ -3965,7 +3965,7 @@
         "The Princess Alexandra Hospital NHS Trust",
         "The Princess Alexandra Hospital NHS Trust"
       ],
-      "city": ["Harlow", "Bishop's Stortford", NaN],
+      "city": ["Harlow", "Bishop's Stortford", "NaN"],
       "type": ["Hospital", "Hospital", "Hospital"],
       "sector": ["NHS Sector", "NHS Sector", "NHS Sector"]
     },
@@ -3991,7 +3991,7 @@
         "South West London and St George's Mental Health NHS Trust",
         "South West London and St George's Mental Health NHS Trust"
       ],
-      "city": ["London", "London", "London", "Surbiton", NaN],
+      "city": ["London", "London", "London", "Surbiton", "NaN"],
       "type": [
         "Mental Health Hospital",
         "Mental Health Hospital",
@@ -4211,7 +4211,7 @@
         "Pennine Care NHS Foundation Trust",
         "Pennine Care NHS Foundation Trust"
       ],
-      "city": ["Bury", NaN],
+      "city": ["Bury", "NaN"],
       "type": ["Hospital", "Hospital"],
       "sector": ["NHS Sector", "NHS Sector"]
     },
@@ -4252,7 +4252,7 @@
         "Ashby-De-La-Zouch",
         "Market Harborough",
         "Lutterworth",
-        NaN,
+        "NaN",
         "Leicestershire",
         "Leicestershire"
       ],
@@ -4470,7 +4470,7 @@
         "2gether NHS Foundation Trust",
         "2gether NHS Foundation Trust"
       ],
-      "city": [NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN],
+      "city": ["NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"],
       "type": [
         "Mental Health Hospital",
         "Mental Health Hospital",
@@ -4547,7 +4547,7 @@
         "5 Boroughs Partnership NHS Foundation Trust",
         "5 Boroughs Partnership NHS Foundation Trust"
       ],
-      "city": ["Warrington", NaN],
+      "city": ["Warrington", "NaN"],
       "type": ["Mental Health Hospital", "Mental Health Hospital"],
       "sector": ["NHS Sector", "NHS Sector"]
     },
@@ -4577,7 +4577,7 @@
         "Central and North West London NHS Foundation Trust",
         "Central and North West London NHS Foundation Trust"
       ],
-      "city": ["London", "London", NaN],
+      "city": ["London", "London", "NaN"],
       "type": ["Mental Health Hospital", "UNKNOWN", "Mental Health Hospital"],
       "sector": ["NHS Sector", "Independent Sector", "NHS Sector"]
     },
@@ -4644,7 +4644,7 @@
         "Hull",
         "Hornsea",
         "Cottingham",
-        NaN
+        "NaN"
       ],
       "type": [
         "Mental Health Hospital",
@@ -4831,7 +4831,7 @@
         "Romsey",
         "Hook",
         "Fleet",
-        NaN,
+        "NaN",
         "Fordingbridge",
         "Emsworth"
       ],
@@ -4890,9 +4890,9 @@
         "Manchester",
         "Manchester",
         "Manchester",
-        NaN,
-        NaN,
-        NaN,
+        "NaN",
+        "NaN",
+        "NaN",
         "Manchester"
       ],
       "type": [
@@ -4936,7 +4936,7 @@
         "Mersey Care NHS Trust"
       ],
       "city": [
-        NaN,
+        "NaN",
         "Liverpool",
         "Liverpool",
         "Liverpool",
@@ -5243,7 +5243,7 @@
       "city": [
         "Rochford",
         "Grays",
-        NaN,
+        "NaN",
         "Leighton Buzzard",
         "Ongar",
         "Bedford",
@@ -5359,7 +5359,7 @@
         "Berkshire Healthcare NHS Foundation Trust",
         "Berkshire Healthcare NHS Foundation Trust"
       ],
-      "city": ["Reading", NaN, "Berkshire", "Slough", "Thatcham"],
+      "city": ["Reading", "NaN", "Berkshire", "Slough", "Thatcham"],
       "type": [
         "Mental Health Hospital",
         "Mental Health Hospital",
@@ -5435,7 +5435,7 @@
         "Hailsham",
         "St. Leonards-on-Sea",
         "Crawley",
-        NaN
+        "NaN"
       ],
       "type": [
         "Mental Health Hospital",
@@ -5902,7 +5902,7 @@
         "East Lancashire Hospitals NHS Trust",
         "East Lancashire Hospitals NHS Trust"
       ],
-      "city": ["Burnley", "Blackburn", "Nelson", NaN, NaN],
+      "city": ["Burnley", "Blackburn", "Nelson", "NaN", "NaN"],
       "type": ["Hospital", "Hospital", "Hospital", "Hospital", "Hospital"],
       "sector": [
         "NHS Sector",
@@ -6020,7 +6020,7 @@
         "Hertfordshire Community NHS Trust",
         "Hertfordshire Community NHS Trust"
       ],
-      "city": ["Welwyn", NaN],
+      "city": ["Welwyn", "NaN"],
       "type": ["UNKNOWN", "Hospital"],
       "sector": ["Independent Sector", "NHS Sector"]
     },
@@ -6079,15 +6079,15 @@
         "Derbyshire Community Health Services NHS Foundation Trust"
       ],
       "city": [
-        NaN,
-        NaN,
+        "NaN",
+        "NaN",
         "Derby",
-        NaN,
-        NaN,
+        "NaN",
+        "NaN",
         "Chesterfield",
-        NaN,
-        NaN,
-        NaN,
+        "NaN",
+        "NaN",
+        "NaN",
         "Buxton",
         "Chesterfield",
         "Ashbourne"
@@ -6141,7 +6141,7 @@
         "Coventry and Warwickshire Partnership NHS Trust",
         "Coventry and Warwickshire Partnership NHS Trust"
       ],
-      "city": ["Warwick", "Birmingham", "Nuneaton", NaN],
+      "city": ["Warwick", "Birmingham", "Nuneaton", "NaN"],
       "type": [
         "Mental Health Hospital",
         "Mental Health Hospital",
@@ -6246,7 +6246,7 @@
     "RYX": {
       "hospitals": ["Sexual Health Clinic at Charing Cross Hospital"],
       "organisation": ["Central London Community Healthcare NHS Trust"],
-      "city": [NaN],
+      "city": ["NaN"],
       "type": ["Hospital"],
       "sector": ["NHS Sector"]
     },
@@ -6331,7 +6331,7 @@
         "Bradford District Care Trust",
         "Bradford District Care Trust"
       ],
-      "city": ["Bradford", NaN],
+      "city": ["Bradford", "NaN"],
       "type": ["Mental Health Hospital", "UNKNOWN"],
       "sector": ["NHS Sector", "NHS Sector"]
     },
@@ -6435,13 +6435,13 @@
     "cat__admin_supp_DNM": {
       "name": "Admin and Support Staff for Doctors, Nurses & Midwives",
       "description":
-        "Total number of staff providing admin and support for doctors, nurses and midwives (FTE). This includes nursing support, clerical & administrative and maintenance staff."
+        "Total number of staff providing admin and support for doctors, nurses and midwives (FTE). This includes nursing support, clerical & administrative and mainte"NaN"ce staff."
     },
     "cat__admin_supp_STT": {
       "name":
         "Admin and Support Staff for Scientific, Therapeutic & Technical Staff",
       "description":
-        "Total number of staff providing admin and support for scientific, therapeutic and technical staff. This includes support to healthcare scientists and other ST&T staff, clerical & administrative and maintenance staff."
+        "Total number of staff providing admin and support for scientific, therapeutic and technical staff. This includes support to healthcare scientists and other ST&T staff, clerical & administrative and mainte"NaN"ce staff."
     },
     "cat__nursing_staff": {
       "name": "Nursing Staff",
@@ -6453,12 +6453,12 @@
         "Total number of managers and senior managers employed at the NHS trust (FTE)."
     },
     "ytd_plan_miss": {
-      "name": "Did the NHS trust financially perform as expected?",
+      "name": "Did the NHS trust fi"NaN"cially perform as expected?",
       "description":
         "1 = trust did not reach planned YTD balance, 0 = trust reached or did better than forecasted"
     },
     "deficit": {
-      "name": "Financial deficit.",
+      "name": "Fi"NaN"cial deficit.",
       "description":
         "This tells you whether the NHS trust was in deficit i.e. with negative balance. Those in deficit are shown by \"1\", and those not in deficit are shown as \"0\"."
     }

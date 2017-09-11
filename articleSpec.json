@@ -1,0 +1,186 @@
+{
+  "slides": [
+    {
+      "type": "landing",
+      "header":
+        "How succesful is the NHS at delivering on referral to treatment targets for cancer?",
+      "subheader":
+        "After referral following a cancer diagnosis, as outlined by the Cancer Reform Strategy (2007), patients should expect to wait no longer than 62 days until their first treatment. In fact, the government have set a target in England that at least 85% of patients waiting for first cancer treatment should not exceed this time.\n\n However, NHS England have struggled to [hit this target since 2014](http://scienceblog.cancerresearchuk.org/2016/10/13/cancer-waiting-times-whats-causing-the-delays/) and we are still unable to pin-point exactly (with evidence) what factors contribute to this lack in performance."
+    },
+    {
+      "type": "article",
+      "header": "NHS targets for referreal to treatment for cancer",
+      "text":
+        "[How succesful](id0) is [the NHS](id1) at delivering on the targets for referral to treatment for [cancer patients](id2) in the UK?",
+
+      "links": {
+        "id0": {
+          "type": "range",
+          "header": "Measuring success",
+          "info":
+            "Success can be measured in many different ways and different measures have been used in the past. The NHS measures success by looking at the number of patients (in percentage) that are still waiting for treatment after the aimed target ellapsed.\n\n In England the aim is to referr 85% of the patients in 62 days. In Scotland and Wales the target is 95% referrals.",
+          "range": {
+            "min": 0,
+            "max": 100,
+            "step": 5,
+            "unit": "%",
+            "marks": {
+              "85": {
+                "label": "Eng",
+                "style": { "align": "left" },
+                "context":
+                  "The NHS *in England* currently aims to refer **85%** of the patients to treatment"
+              },
+              "95": {
+                "label": "Scot & Wales",
+                "styue": { "align": "right" },
+                "context":
+                  "In Scotland and Wales the aim is to refer **95%** in time."
+              }
+            }
+          }
+        },
+        "id1": {
+          "type": "context",
+          "header": "The National Health Service",
+          "info":
+            "There is a different organizing body in England and Scotland. Here we only look at data from NHS England."
+        },
+        "id2": {
+          "type": "choice",
+          "header": "Same targets for different types of cancer?",
+          "info":
+            "The NHS currently does not distinguish between cancer types when establishing the targets for cancer types. Different targets could be set for different cancer types depending on their mortality index. Another option would be to look at different risks groups in the population and set the targets accordingly.",
+          "choices": [
+            {
+              "choiceId": "c1",
+              "header": "Aggregate all cancer types",
+              "info":
+                "The NHS currently does not distinguish between cancer types when establishing the targets for cancer types and aggregates them."
+            },
+            {
+              "choiceId": "c2",
+              "header": "Distinguish cancer types based on aggresiveness",
+              "info":
+                "Waiting times may differ for more complicated cancers. In these cases, patients may wait longer to start treatment due to the need for specialised scans which are sometimes only available at larger hospitals located elsewhere. On the other hand, for more aggressive cancers, patients would be expected to be prioritised so that they receive treatment faster."
+            }
+          ]
+        }
+      }
+    },
+
+    {
+      "type": "predictorSelection",
+      "header": "Select a predictor",
+      "info":
+        "Which factors do you think influence the ability of a NHS trust to refer cancer patients in time?"
+    },
+    {
+      "type": "predictionCards",
+      "info": "Based on your predictors, do you think the trust is on target?"
+    },
+    {
+      "type": "predictionEvaluation",
+      "info": "Here is how well you did..."
+    }
+  ],
+
+  "predictorInfo": {
+    "cat_numtreat_total": {
+      "name": "Total number of patients treated",
+      "description":
+        "The total number of people receiving first treatment for cancer at the NHS trust"
+    },
+    "shmi_ind": {
+      "name": "SHMI Index",
+      "description":
+        "This is calculated from the ratio between the actual number of patients who die following hospitalisation at the trust and the number that would be expected to die on the basis of average England figures given the characteristics of the patients treated there. ? It includes deaths which occur in hospital and deaths which occur outside of hospital within 30 days (inclusive) of discharge. The SHMI gives an indication for each non-specialist acute NHS trust in England whether the observed number of deaths within 30 days of discharge from hospital was 'above expected' (SHMI value > 1) or 'lower than expected' (SHMI value < 1). This index is aggregated over all cancer diagnosis groups."
+    },
+    "cat_patient_admissions": {
+      "name": "Number of admitted patients",
+      "description":
+        "Total number of patients admitted into hospitals within the NHS trust"
+    },
+    "cat_beds_day": {
+      "name": "Available day beds",
+      "description":
+        "The total number of available beds (day only) for General & Acute"
+    },
+    "cat_beds_night": {
+      "name": "Available night beds",
+      "description":
+        "The total number of available beds (night ? only) for General & Acute"
+    },
+    "cat_oncology_staff": {
+      "name":
+        "Total number of medical staff (FTE) specialising or involved in treatment or diagnosis of cancer",
+      "description":
+        "This gives the total number of medical staff who either specialise, or are involved when treating or diagnosing the cancer of a patient. This has been aggregated for the number of staff (in FTE) from the following areas: Chemical Pathology, Clinical Oncology, Clinical Radiology, General Pathology, Heamatology, Histapothology, Medical Oncology and Palliative Medicine."
+    },
+    "cat__Clinical_oncology": {
+      "name": "Clinical Oncologists",
+      "description":
+        "Total number of medical staff working in Clincial Oncology (FTE). These are medical staff that use chemotherapy or radiotherapy (and other treatments) to treat cancer patients."
+    },
+    "cat__Clinical_radiology": {
+      "name": "Clinical Radiologists",
+      "description":
+        "Total number of medical staff working in Clincial Radiology (FTE). These are medical staff that use imaging to diagnose, treat and manage various medical conditions and diseases which may also include cancer. They offer specialist expertise and guidance."
+    },
+    "cat__Chemical_pathology": {
+      "name": "Chemical Pathologists",
+      "description":
+        "Total number of medical staff working in Chemical Pathology (FTE). They are doctors who use biochemical laboratory tests to diagnose a range of diseases and to manage patients."
+    },
+    "cat__General_pathology": {
+      "name": "General Pathologists",
+      "description":
+        "Total number of medical staff working in General Pathology (FTE). These are doctors who practise both clinical (see Clinical Pathologists) and anatomical pathology. The latter entails diagnosis of diseases based macroscopic, microscopic, biochemical, immunologic and molecular examinations."
+    },
+    "cat__Haematology": {
+      "name": "Haematologists",
+      "description":
+        "Total number of medical staff working in Haematology (FTE). These doctors diagnose and clinically manage disorders of the bone and marrow."
+    },
+    "cat__Histopathology": {
+      "name": "Histopathologists",
+      "description":
+        "Total number of medical staff working in Histopathology (FTE). These doctors diagnose and study disease through interpretation of cells and tissue samples. They are an integral component to managing cancer through staging and grading tumours."
+    },
+    "cat__Medical_oncology": {
+      "name": "Medical Oncologists",
+      "description":
+        "Total number of medical staff working in Medical Oncology (FTE). Medical oncologists diagnose, assess, treat and manage cancer patients."
+    },
+    "cat__admin_supp_DNM": {
+      "name": "Admin and Support Staff for Doctors, Nurses & Midwives",
+      "description":
+        "Total number of staff providing admin and support for doctors, nurses and midwives (FTE). This includes nursing support, clerical & administrative and maintenance staff."
+    },
+    "cat__admin_supp_STT": {
+      "name":
+        "Admin and Support Staff for Scientific, Therapeutic & Technical Staff",
+      "description":
+        "Total number of staff providing admin and support for scientific, therapeutic and technical staff. This includes support to healthcare scientists and other ST&T staff, clerical & administrative and maintenance staff."
+    },
+    "cat__nursing_staff": {
+      "name": "Nursing Staff",
+      "description": "Total number of Nurses for adult care (FTE)."
+    },
+    "cat__management_staff": {
+      "name": "Management Staff",
+      "description":
+        "Total number of managers and senior managers employed at the NHS trust (FTE)."
+    },
+    "ytd_plan_miss": {
+      "name": "Did the NHS trust financially perform as expected?",
+      "description":
+        "1 = trust did not reach planned YTD balance, 0 = trust reached or did better than forecasted"
+    },
+    "deficit": {
+      "name": "Financial deficit.",
+      "description":
+        "This tells you whether the NHS trust was in deficit i.e. with negative balance. Those in deficit are shown by \"1\", and those not in deficit are shown as \"0\"."
+    }
+  }
+}

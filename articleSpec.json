@@ -6435,13 +6435,13 @@
     "cat__admin_supp_DNM": {
       "name": "Admin and Support Staff for Doctors, Nurses & Midwives",
       "description":
-        "Total number of staff providing admin and support for doctors, nurses and midwives (FTE). This includes nursing support, clerical & administrative and mainte"NaN"ce staff."
+        "Total number of staff providing admin and support for doctors, nurses and midwives (FTE). This includes nursing support, clerical & administrative and maintenance staff."
     },
     "cat__admin_supp_STT": {
       "name":
         "Admin and Support Staff for Scientific, Therapeutic & Technical Staff",
       "description":
-        "Total number of staff providing admin and support for scientific, therapeutic and technical staff. This includes support to healthcare scientists and other ST&T staff, clerical & administrative and mainte"NaN"ce staff."
+        "Total number of staff providing admin and support for scientific, therapeutic and technical staff. This includes support to healthcare scientists and other ST&T staff, clerical & administrative and maintenance staff."
     },
     "cat__nursing_staff": {
       "name": "Nursing Staff",
@@ -6453,12 +6453,12 @@
         "Total number of managers and senior managers employed at the NHS trust (FTE)."
     },
     "ytd_plan_miss": {
-      "name": "Did the NHS trust fi"NaN"cially perform as expected?",
+      "name": "Did the NHS trust financially perform as expected?",
       "description":
         "1 = trust did not reach planned YTD balance, 0 = trust reached or did better than forecasted"
     },
     "deficit": {
-      "name": "Fi"NaN"cial deficit.",
+      "name": "Financial deficit.",
       "description":
         "This tells you whether the NHS trust was in deficit i.e. with negative balance. Those in deficit are shown by \"1\", and those not in deficit are shown as \"0\"."
     }

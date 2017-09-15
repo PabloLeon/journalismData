@@ -18,7 +18,7 @@
           "type": "range",
           "header": "Measuring success",
           "info":
-            "Success can be measured in many different ways and different measures have been used in the past. The NHS measures success by looking at the number of patients (in percentage) that are still waiting for treatment after the aimed target ellapsed.\n\n In England the aim is to referr 85% of the patients in 62 days. In Scotland and Wales the target is 95% referrals.",
+            "Success can be measured in many different ways and different measures have been used in the past. The NHS measures success by looking at the number of patients (in percentage) that are still waiting for treatment after the aimed target ellapsed.\n\n In England the aim is to referr 85% of the patients in 62 days. In Scotland and Wales the target is 95% referrals. \n\n __Pick a target that you think is reasonable by selecting it on the slider below__.",
           "range": {
             "min": 0,
             "max": 100,
@@ -50,7 +50,7 @@
           "type": "choice",
           "header": "Same targets for different types of cancer?",
           "info":
-            "The NHS currently does not distinguish between cancer types when establishing the targets for cancer types. Different targets could be set for different cancer types depending on their mortality index. Another option would be to look at different risks groups in the population and set the targets accordingly. __In this prototype your choice here will not be effective and the data will always aggregate all cancer types__.",
+            "The NHS currently does not distinguish between cancer types when establishing the targets for cancer types. Different targets could be set for different cancer types depending on their mortality index. Another option would be to look at different risks groups in the population and set the targets accordingly. __Pick an aggregation level for the cancer types by selecting one of the checkboxes. In this prototype your choice here will not be effective and the data will always aggregate all cancer types__.",
           "choices": [
             {
               "choiceId": "c1",

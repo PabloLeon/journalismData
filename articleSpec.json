@@ -11,7 +11,7 @@
       "type": "article",
       "header": "NHS targets for referreal to treatment for cancer",
       "text":
-        "[How succesful](id0) is [the NHS](id1) at delivering on the targets for referral to treatment for [cancer patients](id2) in the UK?",
+        "[How succesful](id0) is [the NHS](id1) at delivering on the targets for referral to treatment for [cancer patients](id2) in the UK? __Please select a target that you think is reasonable and decide if cancer types should be aggregated by clicking on the underlined text with a lightbulb symbol__.",
 
       "links": {
         "id0": {
@@ -50,7 +50,7 @@
           "type": "choice",
           "header": "Same targets for different types of cancer?",
           "info":
-            "The NHS currently does not distinguish between cancer types when establishing the targets for cancer types. Different targets could be set for different cancer types depending on their mortality index. Another option would be to look at different risks groups in the population and set the targets accordingly.",
+            "The NHS currently does not distinguish between cancer types when establishing the targets for cancer types. Different targets could be set for different cancer types depending on their mortality index. Another option would be to look at different risks groups in the population and set the targets accordingly. __In this prototype your choice here will not be effective and the data will always aggregate all cancer types__.",
           "choices": [
             {
               "choiceId": "c1",
